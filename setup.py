@@ -11,8 +11,8 @@ class Config:
     
     def __init__(self):
         # Основные настройки
-        self.BOT_TOKEN = os.getenv('BOT_TOKEN', '8175502782:AAGTNsCzaoZ_fWinvUDiCcGyBGdWTv08PeA')
-        self.ADMIN_IDS = [123456789]  # Ваш ID в Telegram
+        self.BOT_TOKEN = os.getenv('BOT_TOKEN', 'ENTER TOKEN HERE')
+    
         self.REQUEST_LIMITS = {
             'max_requests': 10,
             'time_window': 60,
