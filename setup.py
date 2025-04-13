@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 from limiter import TarotLimiter
 import telebot
-from telebot import TeleBot  # Добавьте эту строку в начало файла
+from telebot import TeleBot  
 from typing import Optional
 
 class Config:
